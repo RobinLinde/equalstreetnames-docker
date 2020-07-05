@@ -4,4 +4,4 @@ RUN apk add --no-cache git npm composer php-sqlite3
 RUN git clone --recurse-submodules https://github.com/openknowledgebe/equalstreetnames.git
 RUN cd equalstreetnames && composer install
 RUN cd equalstreetnames && npm install
-ENTRYPOINT cd equalstreetnames && npm run serve:brussels
+ENTRYPOINT cd equalstreetnames && npm run serve:leuven
