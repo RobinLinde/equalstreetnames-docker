@@ -5,6 +5,7 @@ Various tags are available, each corresponding with a city submodule.
 
 - assen
 - belgrade
+- berlin
 - brugge
 - brussels
 - gent
